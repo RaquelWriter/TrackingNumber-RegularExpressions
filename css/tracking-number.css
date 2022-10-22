@@ -1,0 +1,67 @@
+h2 {
+  margin: 3vh auto;
+  color: white;
+}
+.container {
+  background-image: url('../images/jake-nebov-l_Z5M0Qwt-s-unsplash.jpg');
+  background-repeat: no-repeat;
+  margin: 20px auto;
+  padding: 0;
+  background-color: #0f2d68;
+  /*     background-color: #1888b3; */
+}
+
+div .tracking-number-div {
+  background-color: #f8cf47;
+  margin: 3rem auto;
+  border-radius: 10px;
+  box-shadow: #6f7a91;
+  display: inline-block;
+}
+div .tracking-number-el {
+  margin: 20px 20px;
+}
+.footer {
+  align-items: center;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+a:hover {
+  color: gold;
+}
+input {
+  height: 2.6rem;
+  margin: 0 10px 0 0;
+}
+.btn:hover {
+  background-color: #4b70b7;
+  color: white;
+}
+.btn {
+  background-color: #0f2d68;
+  color: white;
+}
+.result {
+  margin: 20px auto;
+}
+.whitebox {
+  background-color: aliceblue;
+  color: #0f2d68;
+  border-radius: 10px;
+  box-shadow: #6f7a91;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}
